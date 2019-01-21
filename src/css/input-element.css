@@ -1,0 +1,14 @@
+button{
+    border: none;
+    background-color: rgb(233, 233, 233);
+    color: rgb(66, 66, 66);
+    padding: 0.5em;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgb(66, 66, 66);
+    transition: all .5s ease-in-out;
+}
+button:hover{
+    background-color: rgb(66, 66, 66);
+    color: rgb(233, 233, 233);
+    box-shadow: 0 5px 15px rgb(233, 233, 233);
+}
