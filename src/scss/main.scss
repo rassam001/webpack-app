@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'button';
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    margin: 20px;
+}
+p{
+    background-color: $light-color;
+    color: $dark-color;
+    box-shadow: 0 5px 15px $dark-color;
+    width: 50%;
+    margin: 30px auto;
+}

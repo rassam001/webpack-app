@@ -1,0 +1,14 @@
+button{
+    border: none;
+    background-color: $light-color;
+    color: $dark-color;
+    padding: 0.5em;
+    cursor: pointer;
+    box-shadow: 0 5px 15px $dark-color;
+    transition: all .5s ease-in-out;
+    &:hover{
+        background-color: $dark-color;
+        color: $light-color;
+        box-shadow: 0 5px 15px $light-color;
+    }
+}
