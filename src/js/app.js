@@ -1,5 +1,5 @@
 import '../scss/main.scss';
-import { secretBtn, secretParagraph } from './dom-loader';
+import { secretBtn, secretParagraph } from './dom';
 let showSecret = false;
 
 updateSecretParagraph();
